@@ -31,6 +31,7 @@ local options = {
     numberwidth = 4,                            -- set number column width to n (4 default)
     signcolumn = "yes",                         -- always show the sign column, otherwise it would shift the text each time
     wrap = false,                               -- display lines as one long line
+    linebreak = true,                           -- break lines as one long line
     scrolloff = 8,                              -- lines to be shown before and after cursor
     sidescrolloff = 8,                          -- columns to be shown before and after cursor
     guifont = "monospace:h17",                  -- the font used in graphical neovim applications
